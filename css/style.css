@@ -213,13 +213,25 @@ h1, h2 {
 }
 
 .services_features .services_item .services_icon {
+    background-color: #fff;
     width: 100px;
     height: 100px;
-    background-color: #fff;
 }
 
 .services_features .services_item .services_icon svg {
-    margin: 29px 26px 28px 27px;
+    padding: 23px;
+    width: 54px;
+    height: 54px;
+}
+
+.services_features .services_item:hover .services_icon svg {
+    fill: #fff;
+    background-color: #262626;
+}
+
+.services_features .services_item:hover .services_caption {
+    color: #fff;
+    background-color: #262626;
 }
 
 .services_wrapper .services_title {
